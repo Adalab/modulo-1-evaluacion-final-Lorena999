@@ -21,6 +21,7 @@
   font-family: "Roboto Slab", serif;
   line-height: 55px;
   font-size: 42px;
+  text-transform: uppercase;
 }
 .claim {
   color: white;
@@ -28,4 +29,13 @@
   font-weight: normal;
   font-size: 16px;
   text-transform: none;
+}
+.scroll-hero {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url("../images/ico-scroll-down.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
