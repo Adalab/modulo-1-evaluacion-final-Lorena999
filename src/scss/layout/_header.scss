@@ -1,5 +1,31 @@
 .header {
   width: 100vw;
   height: 100vh;
-  background-image: url(.//assets/images/cover);
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.menu-hero {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  background-image: url("../images/ico-menu.svg");
+}
+.title {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  line-height: 55px;
+  font-size: 42px;
+}
+.claim {
+  color: white;
+  font-family: $font-main;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: none;
 }
