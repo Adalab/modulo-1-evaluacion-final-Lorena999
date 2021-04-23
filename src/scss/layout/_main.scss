@@ -36,18 +36,50 @@
 }
 
 .container-tips {
-  width: 100vw;
-  height: 376px;
-  margin-top: 30px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 30px;
 }
-
+.title-tips {
+  font-size: 0.875rem;
+  color: #8ccbea;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.article-tips {
+  color: black;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.text-tips {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #4a4a4a;
+}
+.link-go {
+  width: 76px;
+  height: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border: solid 2px #f26002;
+  border-radius: 2em;
+  color: #f26002;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .reasons {
   background-color: #eff9ff;
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr 1fr 1fr 165px;
 }
 .reasons-title {
@@ -56,6 +88,7 @@
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   font-size: 1.5rem;
+  text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 0;
 }
