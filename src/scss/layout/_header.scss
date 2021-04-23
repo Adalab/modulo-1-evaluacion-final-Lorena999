@@ -1,41 +1,16 @@
-.header {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../images/cover.jpg");
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.menu-hero {
+.menu-wrapper {
   width: 44px;
   height: 44px;
   background-color: #0271bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.icon-wrapper {
+  width: 16px;
+  height: 14px;
   background-image: url("../images/ico-menu.svg");
-}
-.title {
-  color: white;
-  font-family: "Roboto Slab", serif;
-  line-height: 55px;
-  font-size: 42px;
-  text-transform: uppercase;
-}
-.claim {
-  color: white;
-  font-family: $font-main;
-  font-weight: normal;
-  font-size: 16px;
-  text-transform: none;
-}
-.scroll-hero {
-  width: 45px;
-  height: 45px;
-  background-color: white;
-  border-radius: 50%;
-  background-image: url("../images/ico-scroll-down.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
