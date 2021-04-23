@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Web Anonymous proxy</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -13,49 +13,53 @@
 
   <body>
     <header class="header">
-      <nav>MENU HAMBURGUESA-ICO_MENU</nav>
-      <div>
-        IMAGE HERO
-        <h1>anonymus proxy</h1>
-        <h3>in hac habitasse platea dictumst</h3>
-      </div>
-      <div>ICON-SCROLL-DOWN</div>
+      <a href="https://adalab.es/" target="_black">
+        <div class="menu-wrapper"><div class="icon-wrapper"></div></div>
+      </a>
     </header>
 
     <main class="main">
-      <section>
-        <article>
-          <h2>insomnia tips</h2>
-          <h3>looking through a window</h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi
-          magnam reiciendis totam ipsa aspernatur fugiat tenetur, provident amet eum
-          aliquid laborum, nostrum accusamus.
-        </article>
-        <div>BUTTON GO</div>
+      <section class="hero">
+        <h1 class="title">anonymus proxy</h1>
+        <h3 class="claim">In hac habitasse platea dictumst.</h3>
+        <a href="#sectionreasons">
+          <div class="buttom-hero"></div>
+        </a>
       </section>
-      <section>
-        <h2>3 reasons to purchase</h2>
-        <article>
-          <h3>ut sed metus</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <article class="container-tips">
+          <h2 class="section-tips">insomnia tips</h2>
+          <h3 class="article-tips">looking through a window</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            excepturi magnam reiciendis totam ipsa aspernatur fugiat tenetur,
+            provident amet eum aliquid laborum, nostrum accusamus.
+          </p>
+      </article>
+        <div class="button go">BUTTON GO</div>
+      </section>
+      <section class="reasons" id="sectionreasons">
+        <h2 class="reasons-title">3 reasons to purchase</h2>
+        <article class="box reason1">
+          <h3 class="title-reason">ut sed metus</h3>
+          <p class="text-reason">Lorem ipsum dolor, sit amet consectetur.</p>
         </article>
-        <article>
-          <h3>curabitur ac erat</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <article class="box reason2">
+          <h3 class="title-reason">curabitur ac erat</h3>
+          <p class="text-reason">Lorem ipsum dolor, sit amet consectetur.</p>
         </article>
-        <article>
-          <h3>morbi dictum</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <article class="box reason3">
+          <h3 class="title-reason">morbi dictum</h3>
+          <p class="text-reason">Lorem ipsum dolor, sit amet consectetur.</p>
         </article>
-        <div>BUTTON MORE REASON</div>
+       <a href="" class="button-more">More reasons</a>
       </section>
     </main>
 
     <footer class="footer">
-      <div>ICON-ARROW</div>
-      <small>&copy2021 we ICON-CORAZON components</small>
-      <nav>articles books events reasons tips</nav>
-      <nav>twitter instagram mastodon social</nav>
+      <div class="link-arrow">ICON-ARROW</div>
+      <small class="copy">&copy2021 we ICON-CORAZON components</small>
+      <nav class="blog">articles books events reasons tips</nav>
+      <nav class="social-media">twitter instagram mastodon social</nav>
     </footer>
 
   </body>
