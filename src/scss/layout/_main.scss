@@ -65,11 +65,17 @@
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
 }
 .text-tips {
   margin: 0;
   font: 1.125rem $fontText;
   color: #4a4a4a;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 .link-go {
   width: 76px;
@@ -79,7 +85,8 @@
   border: solid 2px $color-orange;
   border-radius: 2em;
   color: $color-orange;
-  font-size: 1.25rem;
+  font: 1.25rem $fontText;
+  font-weight: 600;
   text-transform: capitalize;
   display: flex;
   justify-content: center;
@@ -109,6 +116,9 @@
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 0;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
 }
 .box {
   justify-self: center;
@@ -121,9 +131,15 @@
 .title-reason {
   font: 1.125rem $fontTitle;
   font-weight: 700;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 .text-reason {
   font: 1.125rem $fontText;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 .button-more {
   width: 62%;
