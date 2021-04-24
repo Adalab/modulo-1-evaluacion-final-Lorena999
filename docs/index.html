@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -17,30 +17,27 @@
 
   <body>
     <header class="header">
-      <a href="https://adalab.es/" target="_black">
-        <div class="menu-wrapper"><div class="icon-wrapper"></div></div>
-      </a>
+      <div class="menu-wrapper">
+        <a href="https://adalab.es/" target="_black"></a>
+      </div>
     </header>
 
-    <main class="main" >
-      <section class="hero" id="home">
+    <main class="main">
+      <section class="hero" id="top">
         <h1 class="title">anonymus proxy</h1>
         <h3 class="claim">In hac habitasse platea dictumst.</h3>
-        <a href="#sectionreasons">
-          <div class="buttom-hero" ></div>
-        </a>
-      </section class="tips">
-      <article class="container-tips">
-          <h2 class="title-tips">insomnia tips</h2>
-          <h3 class="article-tips">looking through a window</h3>
-          <p class="text-tips">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            excepturi magnam reiciendis totam ipsa aspernatur fugiat tenetur,
-            provident amet eum aliquid laborum, nostrum accusamus.
-          </p>
-          <a href="" class="link-go">go</a>
-      </article>
+        <a href="#sectionreasons" class="link-hero"></a>
       </section>
+      <article class="container-tips">
+        <h2 class="tips">insomnia tips</h2>
+        <h3 class="title-tips">looking through a window</h3>
+        <p class="text-tips">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi
+          magnam reiciendis totam ipsa aspernatur fugiat tenetur, provident amet eum
+          aliquid laborum, nostrum accusamus.
+        </p>
+        <a href="" class="link-go">go</a>
+      </article>
       <section class="reasons" id="sectionreasons">
         <h2 class="reasons-title">3 reasons to purchase</h2>
         <article class="box reason1">
@@ -55,14 +52,14 @@
           <h3 class="title-reason">morbi dictum</h3>
           <p class="text-reason">Lorem ipsum dolor, sit amet consectetur.</p>
         </article>
-       <a href="" class="button-more">More reasons</a>
+        <a href="" class="button-more">More reasons</a>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="#home"> <div class="link-arrow"></div></a>
-      <nav class="blog">
-        <ul class="list">
+      <a href="#top" class="link-arrow"></a>
+      <nav class="menu-blog">
+        <ul class="list blog">
           <li>
             <a class="link" href="https://adalab.es" target="_black">articles</a>
           </li>
@@ -79,7 +76,7 @@
         </ul>
       </nav>
       <nav class="social-media">
-        <ul class="list">
+        <ul class="list social">
           <li>
             <a class="link" href="https://adalab.es" target="_black">twitter</a>
           </li>
@@ -91,11 +88,10 @@
               >mastodon social</a
             >
           </li>
-          <li><a class="link" href="https://adalab.es" target="_black">tips</a></li>
         </ul>
       </nav>
       <small class="copy">
-        <div class="">&copy2021</div>
+        <div>&copy2021</div>
         <div>
           we<span class="icon-heart"><i class="fas fa-heart"></i></span>components
         </div>
