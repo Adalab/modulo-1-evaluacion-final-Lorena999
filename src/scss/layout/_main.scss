@@ -13,12 +13,16 @@
 }
 .title {
   font: 2.625rem $fontTitle;
-  font-weight: 700;
   text-transform: uppercase;
   line-height: 55px;
-  max-width: 400px;
+  word-spacing: 100vw;
   margin-top: 284px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  @media all and (min-width: 768px) {
+    margin-top: 184px;
+    font-size: 80px;
+    line-height: 106px;
+  }
 }
 .link-hero {
   width: 45px;
@@ -33,6 +37,9 @@
 }
 .claim {
   font: 1rem $fontText;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 .container-tips {
   display: flex;
