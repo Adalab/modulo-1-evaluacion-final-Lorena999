@@ -1,30 +1,26 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  color: white;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position-x: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 .title {
-  color: white;
-  font-family: "Roboto Slab", serif;
-  font-size: 2.625rem;
+  font: 2.625rem $fontTitle;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 55px;
   max-width: 400px;
+  margin-top: 284px;
   margin-bottom: 10px;
 }
-.claim {
-  color: white;
-  font-size: 1rem;
-}
-
-.buttom-hero {
+.link-hero {
   width: 45px;
   height: 45px;
   background-color: white;
@@ -32,34 +28,36 @@
   background-image: url("../images/ico-scroll-down.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  margin: 53px;
+  position: relative;
+  top: 30px;
 }
-
+.claim {
+  font: 1rem $fontText;
+}
 .container-tips {
-  height: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
-  margin-right: 15px;
+  justify-content: center;
   line-height: 30px;
+  margin: 15px;
 }
-.title-tips {
-  font-size: 0.875rem;
+.tips {
+  height: 30px;
+  font: 0.875rem $fontText;
   color: #8ccbea;
   text-transform: capitalize;
   margin-top: 30px;
 }
-.article-tips {
+.title-tips {
   color: black;
-  font-family: "Roboto Slab", serif;
+  font: 1.5rem $fontTitle;
   font-weight: 700;
-  font-size: 1.5rem;
   text-transform: capitalize;
   margin-bottom: 15px;
 }
 .text-tips {
   margin: 0;
-  font-size: 1.125rem;
+  font: 1.125rem $fontText;
   color: #4a4a4a;
 }
 .link-go {
@@ -67,9 +65,9 @@
   height: 45px;
   margin-top: 45px;
   margin-bottom: 45px;
-  border: solid 2px #f26002;
+  border: solid 2px $color-orange;
   border-radius: 2em;
-  color: #f26002;
+  color: $color-orange;
   font-size: 1.25rem;
   text-transform: capitalize;
   display: flex;
@@ -77,7 +75,7 @@
   align-items: center;
 }
 .reasons {
-  background-color: #eff9ff;
+  background-color: $background-color-reasons;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr 1fr 1fr 165px;
@@ -85,9 +83,8 @@
 .reasons-title {
   justify-self: center;
   color: black;
-  font-family: "Roboto Slab", serif;
+  font: 1.5rem $fontTitle;
   font-weight: 700;
-  font-size: 1.5rem;
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 0;
@@ -97,29 +94,28 @@
   color: black;
   margin-top: 45px;
   text-align: center;
-  font-size: 1.125rem;
+  font: 1.125rem $fontText;
   max-width: 210px;
 }
 .title-reason {
-  font-family: "Roboto Slab", serif;
+  font: 1.125rem $fontTitle;
   font-weight: 700;
 }
 .text-reason {
-  font-family: "Roboto", sans-serif;
+  font: 1.125rem $fontText;
 }
 .button-more {
   width: 62%;
   height: 45px;
   min-width: 184px;
   max-width: 210px;
-  background-color: #f26002;
+  background-color: $color-orange;
   border-radius: 2em;
   justify-self: center;
   align-self: center;
   color: white;
-  font-size: 1.25rem;
-  font-family: "Roboto", sans-serif;
+  font: 1.25rem $fontTitle;
   font-weight: 500;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 8px;
 }
