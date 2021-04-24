@@ -47,6 +47,10 @@
   justify-content: center;
   line-height: 30px;
   margin: 15px;
+  @media all and (min-width: 768px) {
+    margin-left: 39px;
+    max-width: 730px;
+  }
 }
 .tips {
   height: 30px;
@@ -86,6 +90,16 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr 1fr 1fr 165px;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 165px;
+    .reasons-title {
+      grid-column: span 3;
+    }
+    .button-more {
+      grid-column: span 3;
+    }
+  }
 }
 .reasons-title {
   justify-self: center;
