@@ -23,6 +23,10 @@
     font-size: 80px;
     line-height: 106px;
   }
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132px;
+  }
 }
 .link-hero {
   width: 45px;
@@ -50,6 +54,9 @@
   @media all and (min-width: 768px) {
     margin-left: 39px;
     max-width: 730px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-left: 275px;
   }
 }
 .tips {
