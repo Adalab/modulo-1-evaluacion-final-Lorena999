@@ -105,6 +105,12 @@
   justify-content: center;
   align-items: center;
 }
+.link-go:hover {
+  background-color: green;
+  border: solid 2px rgb(168, 160, 160);
+  color: white;
+  transition: background-color ease 1s, border ease 1s, color ease 1s;
+}
 .reasons {
   background-color: $background-color-reasons;
   display: grid;
@@ -158,7 +164,6 @@
   }
 }
 .button-more {
-  width: 62%;
   height: 45px;
   width: 184px;
   background-color: $color-orange;
@@ -176,4 +181,8 @@
   @media all and (min-width: 1200px) {
     width: 255pxktop;
   }
+}
+.button-more:hover {
+  background-color: green;
+  transition: background-color 1.5s ease;
 }
