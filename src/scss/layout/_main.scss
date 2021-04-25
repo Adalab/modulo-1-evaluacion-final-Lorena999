@@ -41,16 +41,20 @@
 }
 .claim {
   font: 1rem $fontText;
+  text-transform: lowercase;
   @media all and (min-width: 768px) {
     font-size: 24px;
   }
+}
+.claim::first-letter {
+  text-transform: uppercase;
 }
 .container-tips {
   display: flex;
   flex-direction: column;
   justify-content: center;
   line-height: 30px;
-  margin: 15px;
+  margin: 0 15px 0 15px;
   @media all and (min-width: 768px) {
     margin-left: 39px;
     max-width: 730px;
@@ -104,6 +108,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
 }
 .link-go:hover {
   background-color: green;
@@ -153,9 +160,13 @@
 .title-reason {
   font: 1.125rem $fontTitle;
   font-weight: 700;
+  text-transform: lowercase;
   @media all and (min-width: 768px) {
     font-size: 24px;
   }
+}
+.title-reason::first-letter {
+  text-transform: uppercase;
 }
 .text-reason {
   font: 1.125rem $fontText;
@@ -173,6 +184,7 @@
   color: white;
   font: 1.25rem $fontTitle;
   font-weight: 500;
+  text-transform: lowercase;
   text-align: center;
   padding-top: 8px;
   @media all and (min-width: 768px) {
@@ -182,7 +194,10 @@
     width: 255pxktop;
   }
 }
+.button-more::first-letter {
+  text-transform: uppercase;
+}
 .button-more:hover {
   background-color: green;
-  transition: background-color 1.5s ease;
+  transition: background-color 1s ease;
 }
