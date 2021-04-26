@@ -12,7 +12,7 @@
   left: 50%;
   animation-name: home;
   animation-delay: 1s;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   @media all and (min-width: 768px) {
     margin-top: -237.5px;
@@ -27,6 +27,8 @@
   to {
     background-color: $color-orange;
     background-image: url("../images/home-solid.svg");
+    background-size: 28px;
+    background-position: 50% 50%;
     border-radius: 25%;
   }
 }

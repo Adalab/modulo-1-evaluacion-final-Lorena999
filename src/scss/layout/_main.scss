@@ -125,13 +125,16 @@
   grid-template-rows: 60px 1fr 1fr 1fr 165px;
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60px 1fr 165px;
+    grid-template-rows: 75px 157px 165px;
     .reasons-title {
       grid-column: span 3;
     }
     .button-more {
       grid-column: span 3;
     }
+  }
+  @media all and (min-width: 1200px) {
+    grid-template-rows: 105px 157px 165px;
   }
 }
 .reasons-title {
@@ -147,6 +150,7 @@
   }
   @media all and (min-width: 1200px) {
     font-size: 2rem;
+    margin-top: 60px;
   }
 }
 .box {
