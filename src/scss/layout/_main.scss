@@ -20,11 +20,11 @@
   margin-bottom: 20px;
   @media all and (min-width: 768px) {
     margin-top: 184px;
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 106px;
   }
   @media all and (min-width: 1200px) {
-    font-size: 100px;
+    font-size: 6.25rem;
     line-height: 132px;
   }
 }
@@ -43,7 +43,7 @@
   font: 1rem $fontText;
   text-transform: lowercase;
   @media all and (min-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 .claim::first-letter {
@@ -70,7 +70,7 @@
   text-transform: capitalize;
   margin-top: 30px;
   @media all and (min-width: 1200px) {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 .title-tips {
@@ -80,10 +80,10 @@
   text-transform: capitalize;
   margin-bottom: 15px;
   @media all and (min-width: 768px) {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   @media all and (min-width: 1200px) {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 .text-tips {
@@ -91,7 +91,7 @@
   font: 1.125rem $fontText;
   color: #4a4a4a;
   @media all and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 .link-go {
@@ -143,10 +143,10 @@
   margin-top: 30px;
   margin-bottom: 0;
   @media all and (min-width: 768px) {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   @media all and (min-width: 1200px) {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 .box {
@@ -162,7 +162,7 @@
   font-weight: 700;
   text-transform: lowercase;
   @media all and (min-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 .title-reason::first-letter {
@@ -171,7 +171,7 @@
 .text-reason {
   font: 1.125rem $fontText;
   @media all and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 .button-more {
