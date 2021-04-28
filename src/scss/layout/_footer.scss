@@ -14,8 +14,10 @@
   animation-delay: 1s;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  display: none;
   @media all and (min-width: 768px) {
     margin-top: -237.5px;
+    display: block;
   }
 }
 @keyframes home {
